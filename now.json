@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "alias": [
+    "www.jellekralt.com",
+    "www.jellekralt.nl",
+    "www.jellekralt.eu",
+    "jellekralt.nl",
+    "jellekralt.eu"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://jellekralt.com/$1" }
+    }
+  ]
+}
